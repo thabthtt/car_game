@@ -15,14 +15,32 @@ This game is principally the same as Subway Surfers or Temple Run where the user
 
 # Project Design
 
-cars_gam_vga.v:
+cars_gam_vga.v: Sets up the clock and instantiates the backgroud.
 
-car_background.v:
+car_background.v: Holds all insantiations and basic outline and coloring of the car and the traffic.
 
-my_car_positions.v:
+my_car_positions.v: Holds Car positions.
 
-traffic.v:
+traffic.v: Holds the movemnt for the traffic and tells if the lane is visible or not.
 
-lsfr.v:
+lsfr.v: 
 
-collision_detector.v:
+collision_detector.v: Decides if the car collides with the traffic.
+
+vga_driver: 
+
+# Gameplay
+
+1. jkdfjs
+
+2. fdsa
+
+3. fdsa
+
+# To play the game
+
+# Citations
+
+Formatting for our [README.md](url) is sampled from https://github.com/liamogw/guitar-hero.git
+
+# Conclusions
