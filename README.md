@@ -1,5 +1,5 @@
 # Project Overview
-Authors: Troy Thabthimthong & Grant Watkins
+Authors: Grant Watkins & Troy Thabthimthong
 
 Class: ECE 287 - Digital Systems Design
 
@@ -31,16 +31,16 @@ vga_driver:
 
 # Gameplay
 
+# To play the game
+
 1. jkdfjs
 
 2. fdsa
 
 3. fdsa
 
-# To play the game
-
 # Citations
 
-Formatting for our [README.md](url) is sampled from https://github.com/liamogw/guitar-hero.git
+Formatting for our `README.md` is sampled from https://github.com/liamogw/guitar-hero.git
 
 # Conclusions
