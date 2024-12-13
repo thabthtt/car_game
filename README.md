@@ -21,13 +21,15 @@ car_background.v: Holds all insantiations and basic outline and coloring of the 
 
 my_car_positions.v: Holds Car positions.
 
-traffic.v: Holds the movemnt for the traffic and tells if the lane is visible or not.
+traffic_controller.v: Holds the movemnt for the traffic and tells if the lane is visible or not.
+
+traffic_visual.v
 
 lsfr.v: 
 
 collision_detector.v: Decides if the car collides with the traffic.
 
-vga_driver: 
+vga_driver: Sets up h_count and v_count for the traffic part of the game
 
 # Gameplay
 
