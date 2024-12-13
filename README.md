@@ -35,7 +35,7 @@ vga_driver: This module implements a VGA driver for a 640x480 resolution. It gen
 
 # To play the game
 
-1. Make sure all switches arre in the off position before you start.
+1. Make sure all switches are in the off position before you start.
 
 2. Flip SW9 into the on position then use KEY[1] and KEY[0] to move left and right.
 
@@ -51,9 +51,8 @@ We received the vga_driver module, lsfr module, traffic_controller module, and t
 
 # Conclusions
 Unfortunately we were not able to complete our game because we were not able to figure out how to implement our collision module when our lsfr module worked and vice versa. 
-
-Here are the videos of the lsfr module and collision module working: 
-
+ 
 Lsfr module working: https://youtube.com/shorts/lO6nqEbiQUU?si=D2uqKx0go5QUwBBA
 
 Collision module working: https://youtube.com/shorts/KkzICEbJ2gI?si=4Y-N4ZVZLFoBy9Uw
+
