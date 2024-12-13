@@ -33,6 +33,10 @@ vga_driver: This module implements a VGA driver for a 640x480 resolution. It gen
 
 # Gameplay
 
+Lsfr module working: https://youtube.com/shorts/lO6nqEbiQUU?si=D2uqKx0go5QUwBBA
+
+Collision module working (car movement shown here): https://youtube.com/shorts/KkzICEbJ2gI?si=4Y-N4ZVZLFoBy9Uw
+
 # To play the game
 
 1. Make sure all switches are in the off position before you start.
@@ -52,7 +56,5 @@ We received the vga_driver, lsfr, traffic_controller, and traffic_visual modules
 # Conclusions
 Unfortunately, we were unable to complete our game because we couldn't figure out how to implement the collision module while the lsfr module worked, and vice versa. Since we were not able to get the base game working, we did not make a scoring system or a difficulty setting. The verilog files attached shows the version of our game where the lsfr module is working correctly but the collision module is not. Besides the collision being inactive, the base game is done. 
  
-Lsfr module working: https://youtube.com/shorts/lO6nqEbiQUU?si=D2uqKx0go5QUwBBA
 
-Collision module working (car movement shown here): https://youtube.com/shorts/KkzICEbJ2gI?si=4Y-N4ZVZLFoBy9Uw
 
