@@ -47,6 +47,13 @@ vga_driver: Sets up h_count and v_count for the traffic part of the game
 
 Formatting for our `README.md` is sampled from https://github.com/liamogw/guitar-hero.git
 
-Code for the traffic and  
+We received the vga_driver module, traffic_controller module, and the traffic_visual module from Liam O'Grady-Walsh and Michael Skidmore in the project link above.
 
 # Conclusions
+Unfortunately we were not able to complete our game because we were not able to figure out how to implement our collision module when our lsfr module worked and vice versa. 
+
+Here are the videos of the lsfr module and collision module working: 
+
+Lsfr module working: https://youtube.com/shorts/lO6nqEbiQUU?si=D2uqKx0go5QUwBBA
+
+Collision module working: https://youtube.com/shorts/KkzICEbJ2gI?si=4Y-N4ZVZLFoBy9Uw
