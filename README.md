@@ -19,9 +19,9 @@ cars_gam_vga.v: This module sets up the clock and instantiates the backgroud.
 
 car_background.v: This module holds all insantiations and basic outline and coloring of the car and the traffic.
 
-my_car_positions.v: This module holds the car positions depending on what input is pressed and tells the car_background module which lane the car should be drawed in. 
+my_car_positions.v: This module holds the car positions depending on what input is pressed and tells the car_background module which lane the car should be drawed in. The movement for the car was made so that if the car was in the left (or right) lane, then they would have to travel to the middle lane in order to get to the right (or left) lane. 
 
-traffic_controller.v: This module holds the movemnt for the traffic and tells if the lane is visible or not.
+traffic_controller.v: This module holds the movement for the traffic and tells if the lane is visible or not.
 
 traffic_visual.v: This module checks to see if the traffic is in that lane, if it is, then the traffic block is colored red. 
 
