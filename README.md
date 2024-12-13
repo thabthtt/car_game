@@ -23,9 +23,9 @@ my_car_positions.v: Holds Car positions.
 
 traffic_controller.v: Holds the movemnt for the traffic and tells if the lane is visible or not.
 
-traffic_visual.v
+traffic_visual.v: This module checks to see if the traffic is in that lane, if it is, then the traffic block is colored red. 
 
-lsfr.v: 
+lsfr.v: Randomly generates a number based on a seed that is implemented. This code was used to generate the traffic cars. 
 
 collision_detector.v: Decides if the car collides with the traffic.
 
