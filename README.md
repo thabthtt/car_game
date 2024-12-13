@@ -15,21 +15,21 @@ This game is principally the same as Subway Surfers or Temple Run where the user
 
 # Project Design
 
-cars_gam_vga.v: Sets up the clock and instantiates the backgroud.
+cars_gam_vga.v: This module sets up the clock and instantiates the backgroud.
 
-car_background.v: Holds all insantiations and basic outline and coloring of the car and the traffic.
+car_background.v: This module holds all insantiations and basic outline and coloring of the car and the traffic.
 
-my_car_positions.v: Holds Car positions.
+my_car_positions.v: This module holds the car positions depending on what input is pressed and tells the car_background module which lane the car should be drawed in. 
 
-traffic_controller.v: Holds the movemnt for the traffic and tells if the lane is visible or not.
+traffic_controller.v: This module holds the movemnt for the traffic and tells if the lane is visible or not.
 
 traffic_visual.v: This module checks to see if the traffic is in that lane, if it is, then the traffic block is colored red. 
 
-lsfr.v: Randomly generates a number based on a seed that is implemented. This code was used to generate the traffic cars. 
+lsfr.v: this module randomly generates a number based on a seed that is implemented. This code was used to generate the traffic cars. 
 
-collision_detector.v: Decides if the car collides with the traffic.
+collision_detector.v: This module decides if the car collides with the traffic.
 
-vga_driver: Sets up h_count and v_count for the traffic part of the game
+vga_driver: This module implements a VGA driver for a 640x480 resolution. It generates horizontal and vertical sync signals (hsync and vsync) based on the timing parameters, while also keeping track of the current pixel (h_count) and line (v_count) positions.
 
 # Gameplay
 
@@ -47,7 +47,7 @@ vga_driver: Sets up h_count and v_count for the traffic part of the game
 
 Formatting for our `README.md` is sampled from https://github.com/liamogw/guitar-hero.git
 
-We received the vga_driver module, traffic_controller module, and the traffic_visual module from Liam O'Grady-Walsh and Michael Skidmore in the project link above.
+We received the vga_driver module, lsfr module, traffic_controller module, and the traffic_visual module from Liam O'Grady-Walsh and Michael Skidmore in the project link above.
 
 # Conclusions
 Unfortunately we were not able to complete our game because we were not able to figure out how to implement our collision module when our lsfr module worked and vice versa. 
