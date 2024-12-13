@@ -54,5 +54,5 @@ Unfortunately, we were unable to complete our game because we couldn't figure ou
  
 Lsfr module working: https://youtube.com/shorts/lO6nqEbiQUU?si=D2uqKx0go5QUwBBA
 
-Collision module working: https://youtube.com/shorts/KkzICEbJ2gI?si=4Y-N4ZVZLFoBy9Uw
+Collision module working(car movement shown here): https://youtube.com/shorts/KkzICEbJ2gI?si=4Y-N4ZVZLFoBy9Uw
 
