@@ -50,7 +50,7 @@ The formatting of our README.md file is based on the template from https://githu
 We received the vga_driver, lsfr, traffic_controller, and traffic_visual modules from Liam O'Grady-Walsh and Michael Skidmore, as referenced in the project link above.
 
 # Conclusions
-Unfortunately, we were unable to complete our game because we couldn't figure out how to implement the collision module while the lsfr module worked, and vice versa. 
+Unfortunately, we were unable to complete our game because we couldn't figure out how to implement the collision module while the lsfr module worked, and vice versa. Since we were not able to get the base game working, we did not make a scoring system or a difficulty setting. The verilog files attached shows the version of our game where the lsfr module is working correctly but the collision module is not. Besides the collision being inactive, the base game is done. 
  
 Lsfr module working: https://youtube.com/shorts/lO6nqEbiQUU?si=D2uqKx0go5QUwBBA
 
