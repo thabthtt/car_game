@@ -35,14 +35,18 @@ vga_driver: Sets up h_count and v_count for the traffic part of the game
 
 # To play the game
 
-1. jkdfjs
+1. Make sure all switches arre in the off position before you start.
 
-2. fdsa
+2. Flip SW9 into the on position then use KEY[1] and KEY[0] to move left and right.
 
-3. fdsa
+3. Use KEY[1] and KEY[0] and avoid traffic for as long as possible.
+
+4. Once the game ends, flip SW9 back into the off position to turn off the game or press KEY[3] to reset the game.
 
 # Citations
 
 Formatting for our `README.md` is sampled from https://github.com/liamogw/guitar-hero.git
+
+Code for the traffic and  
 
 # Conclusions
